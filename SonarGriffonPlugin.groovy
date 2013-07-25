@@ -41,6 +41,8 @@ class SonarGriffonPlugin {
     String documentation = ''
     // URL where source can be found
     String source = 'https://github.com/griffon/griffon-sonar-plugin'
+    // Install as a framework plugin
+    boolean framework = true
 
     List authors = [
         [
